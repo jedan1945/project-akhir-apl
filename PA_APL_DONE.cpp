@@ -140,6 +140,7 @@ void tampilkan_data_kamar() {
         cout << setw(15) << data_kamar[i].status;
         cout << setw(15) << (data_kamar[i].penghuni == "-" ? "Tidak ada" : data_kamar[i].penghuni) << endl;
     }
+    system("pause");
 }
 
 bool validasi_nama(const string& nama) {
